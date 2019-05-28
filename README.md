@@ -6,7 +6,7 @@ the vertical axis.
 
 
 ![Git BRanching Model](images/git-model.png)
-*Source:https://nvie.com/posts/a-successful-git-branching-model/ *
+*Source:https://nvie.com/posts/a-successful-git-branching-model/*
 
 
 To create a new branch on this repo we first need to clone it:
