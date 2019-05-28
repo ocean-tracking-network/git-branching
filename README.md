@@ -6,7 +6,7 @@ the vertical axis.
 
 
 ![Git BRanching Model](images/git-model.png)
-Source:https://nvie.com/posts/a-successful-git-branching-model/
+*Source:https://nvie.com/posts/a-successful-git-branching-model/ *
 
 
 To create a new branch on this repo we first need to clone it:
@@ -32,4 +32,21 @@ git checkout develop
 Let's create a new branch, from develop:
 ```bash
 git checkout -b <new branch name> develop
+```
+
+Check which branch you are currently on, make sure it's our new one:
+```bash
+git branch
+```
+
+Next, create a new file in this branch:
+```bash
+echo "echo <your name>" > <your_name>.sh
+```
+
+Add and commit your changes, then push your changes:
+```bash
+# Code to add changes
+# Code to commit changes
+git push -u origin <new branch name>
 ```
