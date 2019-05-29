@@ -1,1 +1,1 @@
-"echo 'Taz.sh'" 
+echo Taz
