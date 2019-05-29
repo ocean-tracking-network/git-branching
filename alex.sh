@@ -1,1 +1,2 @@
-echo Alex
+echo Alex;
+echo Alex;
